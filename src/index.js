@@ -18,9 +18,11 @@ import "react-image-lightbox/style.css"; // This only needs to be imported once 
 
 const ImgElment = styled.img.attrs((props) => ({
   src: props.imageSrc,
+  'data-aos': "fade-in"
 }))`
   max-width: ${(props) => props.imgMaxWidth}%;
   height: auto;
+  loading: lazy;
   margin-bottom: ${(props) => props.paddingBottom || 0}px;
   ${(props) =>
     props.useLightBox &&
