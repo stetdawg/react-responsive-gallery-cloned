@@ -99,6 +99,7 @@ const ResponsiveGallery = ({
             {imagesCols[key].map((img, imgIndex) => (
               <ImgElment
                 key={shortid.generate()}
+                data-aos="fade-in"
                 imageSrc={img.src}
                 imgMaxWidth={gallerySizes.imagesMaxWidth}
                 paddingBottom={gallerySizes.imagesPaddingBottom}
