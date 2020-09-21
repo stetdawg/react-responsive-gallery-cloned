@@ -21,6 +21,7 @@ const ImgElment = styled.img.attrs((props) => ({
 }))`
   max-width: ${(props) => props.imgMaxWidth}%;
   height: auto;
+  loading: lazy;
   margin-bottom: ${(props) => props.paddingBottom || 0}px;
   ${(props) =>
     props.useLightBox &&
@@ -97,6 +98,7 @@ const ResponsiveGallery = ({
             {imagesCols[key].map((img, imgIndex) => (
               <ImgElment
                 key={shortid.generate()}
+                data-aos="fade-in"
                 imageSrc={img.src}
                 imgMaxWidth={gallerySizes.imagesMaxWidth}
                 paddingBottom={gallerySizes.imagesPaddingBottom}
