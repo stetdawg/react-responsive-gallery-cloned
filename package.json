@@ -22,7 +22,7 @@
     "test": "jest"
   },
   "author": {
-    "name": "Ori Amir"
+    "name": "Stetdawg"
   },
   "husky": {
     "hooks": {
