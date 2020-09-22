@@ -100,6 +100,7 @@ const ResponsiveGallery = ({
               <ImgElment
                 key={shortid.generate()}
                 imageSrc={img.src}
+                dataAos={}
                 imgMaxWidth={gallerySizes.imagesMaxWidth}
                 paddingBottom={gallerySizes.imagesPaddingBottom}
                 className={`${imagesStyle} ${img.imgClassName || ""}`}

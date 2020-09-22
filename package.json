@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OriAmir/React-Responsive-Gallery"
+    "url": "https://github.com/stetdawg/react-responsive-gallery-cloned.git"
   },
   "keywords": [
     "react",
